@@ -13,5 +13,5 @@ echo $MONIT_VERSION
 current_dir=`pwd`
 
 cd $MONIT_VERSION
-ln -s monit-${MONIT_VERSION}-linux-x64.tar.gz monit-${MONIT_VERSION}-linux-x86_64.tar.gz
-ln -s monit-${MONIT_VERSION}-linux-arm64.tar.gz monit-${MONIT_VERSION}-linux-aarch64.tar.gz
+cp monit-${MONIT_VERSION}-linux-x64.tar.gz monit-${MONIT_VERSION}-linux-x86_64.tar.gz
+cp monit-${MONIT_VERSION}-linux-arm64.tar.gz monit-${MONIT_VERSION}-linux-aarch64.tar.gz
